@@ -22,7 +22,7 @@ function calcularRank(qtdVitorias, qtdDerrotas) {
     }
 
     // Exibindo o resultado
-    console.log(`O Héroi tem de saldo de ${saldoVitorias} e está no nível de ${nivel}`);
+    console.log("O Héroi tem de saldo de " + saldoVitorias + " e está no nível de " + nivel);
 }
 
 // Exemplo de uso

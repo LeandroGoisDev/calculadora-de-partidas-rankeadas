@@ -1,4 +1,4 @@
-// Função para calcular o rank com base nas vitórias e derrotas
+
 function calcularRank(qtdVitorias, qtdDerrotas) {
     const saldoVitorias = qtdVitorias - qtdDerrotas;
 
@@ -21,9 +21,9 @@ function calcularRank(qtdVitorias, qtdDerrotas) {
         nivel = "Imortal";
     }
 
-    // Exibindo o resultado
+    
     console.log("O Héroi tem de saldo de " + saldoVitorias + " e está no nível de " + nivel);
 }
 
-// Exemplo de uso
+
 calcularRank(90, 30); // Chamando a função com 90 vitórias e 30 derrotas
